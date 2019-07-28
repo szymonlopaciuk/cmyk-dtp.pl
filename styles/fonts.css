@@ -1,0 +1,29 @@
+/* Montserrat by Julia Ulanovsky, SIL Open Font Licence v1.10 */
+
+@font-face
+{
+  font-family: Montserrat;
+  font-weight: 200;
+  src: url(../fonts/Montserrat-UltraLight.otf);
+}
+
+@font-face
+{
+  font-family: Montserrat;
+  font-weight: 300;
+  src: url(../fonts/Montserrat-Light.otf);
+}
+
+@font-face
+{
+  font-family: Montserrat;
+  font-weight: 400;
+  src: url(../fonts/Montserrat-Regular.otf);
+}
+
+@font-face
+{
+  font-family: Montserrat;
+  font-weight: 500;
+  src: url(../fonts/Montserrat-SemiBold.otf);
+}

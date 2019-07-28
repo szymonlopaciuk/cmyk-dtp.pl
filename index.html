@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-language" content="pl_PL" />
+    <meta http-equiv="charset" content="utf-8" />
+    <meta name="author" content="Szymon Łopaciuk" />
+    <meta name="description" content="CMYK-DTP STUDIO s.c. przygotowalnia do druku" />
+    <meta name="keywords" content="cmyk cmyk-dtp studio desktop publishing przygotowanie do druku druk broszury foldery książki roll-up" />
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.14.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="styles/fonts.css" />
+    <link rel="stylesheet" href="styles/grid.css" />
+    <link rel="stylesheet" href="styles/header_style.css" />
+    <link rel="stylesheet" href="styles/content_style.css" />
+    <link rel="stylesheet" href="styles/map_style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="section-inside">
+        <div id="header-logo" class="col col-8">
+        </div>
+        <div class="col col-2 header-link">
+          <div class="link-wrapper">
+            <a href="#portfolio" onclick="_scrollTo('#portfolio');">portfolio</a>
+            <div class="link-mark"></div>
+          </div>
+        </div>
+        <div class="col col-2 header-link">
+          <div class="link-wrapper">
+            <a href="#contact" onclick="_scrollTo('#map');">kontakt</a>
+            <div class="link-mark"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dark-section">
+      <div class="section-inside">
+        <h2>Profesjonalne przygotowanie do druku</h2>
+        <p>Wykonujemy wszelkiego rodzaju materiały drukowane. Przygotowujemy do druku broszury, katalogi, foldery, często dostosowując materiały obcojęzyczne na rynek polski. Zajmujemy się również opracowaniem graficznym reklam, składem i łamaniem książek, czasopism, gazetek, skanowaniem, retuszem i obróbką zdjęć. Zdobyte przez lata doświadczenie, wiedza i umiejętności pozwalają zapewnić naszym klientom najwyższą jakość i profesjonalizm w przygotowaniu nawet najbardziej skomplikowanych technologicznie materiałów. Przygotowujemy pliki do druku offsetowego, cyfrowego, sitodruku, fleksodruku, tampondruku oraz do wydruków wielkoformatowych.</p>
+      </div>
+    </div>
+    <!-- Portfolio -->
+    <div class="parallax-window" data-parallax="scroll" data-image-src="pix/x-books.jpg" data-speed="0.2">
+      <div class="section-inside transparent-section" id="portfolio" name="portfolio">
+        &nbsp;
+        <h2>Książki</h2>
+        &nbsp;
+      </div>
+    </div>
+
+    <div class="parallax-window" data-parallax="scroll" data-image-src="pix/x-prace.jpg"  data-speed="0.7">
+      <div class="section-inside transparent-section">
+        &nbsp;
+        <h2>Foldery, ulotki, kalendarze, notesy</h2>
+        &nbsp;
+      </div>
+    </div>
+
+    <div class="parallax-window" data-parallax="scroll" data-image-src="pix/x-trzy-albumy.jpg" data-speed="0.8">
+      <div class="section-inside transparent-section">
+        &nbsp;
+        <h2>Albumy i płyty Polskiego Radia</h2>
+        &nbsp;
+      </div>
+    </div>
+
+    <div class="image-window" style="background: url(pix/x-angielski.jpg); height: 40vw;">
+      <div class="section-inside transparent-section">
+        &nbsp;
+        <h2>„Angielski w domu”</h2>
+        <div class="floating-box text-content">
+          Zestaw płyt i książeczek do nauki języka angielskiego dla dzieci
+        </div>
+        &nbsp;
+      </div>
+    </div>
+
+    <div class="parallax-window" data-parallax="scroll" data-image-src="pix/x-niemen.jpg"  data-speed="0.7">
+      <div class="section-inside transparent-section">
+        &nbsp;
+        <h2>Czesław Niemen „Od początku”</h2>
+        &nbsp;
+      </div>
+    </div>
+
+    <div style="background-color: white; background-image: url(pix/x-retusz.jpg); background-repeat: no-repeat; background-size: auto 370px; background-position: 70% 50%; height: 400px;">
+      <div class="section-inside transparent-section">
+        &nbsp;
+        <h2 class="inverted-header">Retusz zdjęć</h2>
+        &nbsp;
+      </div>
+    </div>
+
+    <div class="parallax-window" data-parallax="scroll" data-image-src="pix/x-broszury.jpg"  data-speed="0.7">
+      <div class="section-inside transparent-section">
+        &nbsp;
+        <h2>Broszury, ulotki</h2>
+        &nbsp;
+      </div>
+    </div>
+
+    <div class="parallax-window" style="height: auto;" data-parallax="scroll" data-image-src="pix/x-polka.jpg"  data-speed="0.3">
+      <div class="section-inside transparent-section col-12" style="padding-top: 80px; padding-bottom: 80px;">
+        &nbsp;
+        <h2>Zaufali nam</h2>
+        <div class="floating-box text-content" style="width: 100%; max-width: 100% !important; margin-bottom: 30px">
+          <img src="img/zaufali-black.png" style="width: 100%;"/>
+        </div>
+        &nbsp;
+      </div>
+    </div>
+
+    <!-- Kontakt -->
+    <div class="map-section transparent-section" style="height: calc(100vh - 100px)" name="contact">
+      <div id="map" name="map"></div>
+      <div class="section-inside">
+        <h2 class="inverted-header">Kontakt</h2>
+        <div class="floating-box text-content map-annotation">
+          ul. Makowa 5<br />
+          05-552 Łazy <a href="https://www.google.com/maps/place/CMYK-DTP+STUDIO/@52.0784992,20.8885673,17z/data=!4m13!1m7!3m6!1s0x471930e0e95056ff:0x27ac1cabf6b26f9a!2sMakowa+5,+05-552+%C5%81azy,+Poland!3b1!8m2!3d52.0784959!4d20.890756!3m4!1s0x471930e0e9a4e33d:0xbc2df5fd7b11ba09!8m2!3d52.0784959!4d20.890756?hl=en" class="maplink"><i class="fa fa-map-o" aria-hidden="true"></i></a>
+          <br /><br />
+          <strong>tel. </strong><a href="tel:+48228437037" style="text-decoration: none;">22 843 70 37</a><br /><br />
+          <strong>e-mail </strong><a href="mailto:cmyk@cmyk-dtp.pl">cmyk@cmyk-dtp.pl</a>
+        </div>
+      </div>
+      <div id="copyright-footer">
+        &copy; 2016 CMYK-DTP STUDIO <span style="color: #777">| <a href="https://www.lopaciuk.eu">Szymon Łopaciuk</a></span>
+      </div>
+    </div>
+
+    <!-- scripts go here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.14.1/mapbox-gl.js'></script>
+    <script type="text/javascript" src="scripts/parallax.min.js"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
+  </body>
+</html>

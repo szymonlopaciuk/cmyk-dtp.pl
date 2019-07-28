@@ -1,0 +1,127 @@
+body
+{
+  margin: 0;
+  font-family: Montserrat;
+}
+
+@media only screen and (max-width: 768px)
+{
+  .dark-section
+  {
+    height: auto !important;
+  }
+}
+
+.dark-section
+{
+  background: #222;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+  /*height: calc(100vh - 180px);*/
+}
+
+.dark-section > .section-inside > h2,
+.dark-section > .section-inside > h1
+{
+  margin-top: 0px;
+  margin-bottom: 35px;
+  color: #fff;
+}
+
+.dark-section > .section-inside > p
+{
+  /*font-family: Aleo;
+  font-weight: 100;*/
+
+  text-align: justify;
+  line-height: 1.6em;
+  letter-spacing: 0.05em;
+  color: #dedede;
+}
+
+.parallax-window, .image-window
+{
+  height: 100vh;
+  background: transparent;
+}
+
+.parallax-window
+{
+  margin-top: -30px;
+  margin-bottom: -30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.image-window
+{
+  background-size: cover !important;
+  background-position: 50% 50% !important;
+}
+
+.transparent-section
+{
+  background: transparent;
+  position: relative;
+}
+
+.transparent-section h2, .transparent-section h1
+{
+  position: relative;
+  display: table;
+  z-index: 100;
+  background: #fff;
+  color: #222;
+  padding: 10px;
+}
+
+.transparent-section .floating-box
+{
+  position: relative;
+  display: table;
+  float: left;
+  z-index: 100;
+  background: #fff;
+  color: #000;
+  padding: 10px;
+  font-weight: 300;
+  max-width: 50%;
+}
+
+.section-inside
+{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+  max-width: 1000px;
+}
+
+h2
+{
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 19pt;
+  letter-spacing: 4px;
+}
+
+h1
+{
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 30pt;
+  letter-spacing: 4px;
+}
+
+p, .text-content
+{
+  font-family: Montserrat;
+  font-weight: 200;
+  font-size: 12pt;
+}
+
+strong
+{
+  font-weight: 400;
+}
